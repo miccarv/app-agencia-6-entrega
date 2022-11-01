@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+  /* background-image:url(assets/img4.jpg); */
+  min-height: 100vh !important;
+}
+
+.navbar-nav {
+  flex-direction: row !important;
+  justify-content: space-between !important;
+}
+
+.rowItem {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: aliceblue;
+  color: black;
+  min-width: 20rem !important;
+  max-width: 30%;
+}
+
+.homeBanner {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: rgb(57, 115, 165);
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rio {
+  width: 50%;
+  background-image: url(./assets/img1.jpg);
+}
+
+.sal {
+  background-image: url(./assets/img2.jpg);
+}
+
+.poa {
+  background-image: url(./assets/img3.jpg);
+}
+
+.destino-gallery {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.promo-gallery {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-w {
+  min-width: 20rem !important;
+  max-width: 30%;
+}
